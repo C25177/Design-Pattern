@@ -1,4 +1,4 @@
-package FactortMethod;
+package FactoryMethod;
 
 public class MailSender implements Sender {
   @Override

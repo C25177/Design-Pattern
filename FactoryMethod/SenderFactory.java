@@ -1,4 +1,4 @@
-package FactortMethod;
+package FactoryMethod;
 
 public class SenderFactory {
   public Sender produceMsg() {

@@ -1,4 +1,4 @@
-package FactortMethod;
+package FactoryMethod;
 
 public interface Sender {
   public void send();
