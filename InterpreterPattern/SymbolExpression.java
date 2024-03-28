@@ -2,12 +2,7 @@ package InterpreterPattern;
 
 import java.util.HashMap;
 
-public abstract class SymbolExpression{
-  Expression left;
-  Expression right;
-
-  public SymbolExpression(Expression _left, Expression _right) {
-    left = _left;
-    right = _right;
-  }
+public abstract class SymbolExpression implements Expression {
+  public Expression left;
+  public Expression right;
 }
